@@ -1,0 +1,54 @@
+Request method:	PUT
+Request URI:	https://aos-perf-gw.operativeone.com/crm/v1/c2c90904-8b2a-4ee5-b2c8-551bc523160d/accounts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzdXBwb3J0b3BzQHBlcmZfZm94LmNvbSIsImRuIjoib3U9cGVyZl9mb3gsZGM9b3BlcmF0aXZlb25lIiwicGVybWlzc2lvbnMiOls2MTcsMjAxMzkyMzg1LDE2Nzg0Mzg0LDI2ODUwMTAwOCwxMDQ4ODMyLDE2NzgxMzEzLDI2ODUwMTAwOCwxMDQ4ODMyLDE2NzgxMzEzLDI2ODUwMTAwOCwxMDQ4ODMyLDE2NzgxMzEzLDI2ODUwMTAwOCwxMDQ4ODMyLC0xLC0xLC0xLDMzNjIwMjI1LDE0MzE2NTU3NjUsMTcwNDMwMTkwOSwtMSwtMSwtMSwxNjg0MzAwOSwtMSwtMSwtMSwtMSwxNjg0MzUyMSwtMSwtMSwxMjI3MTMzNTEzLC0xODQwNzAwMjA2LDYxMzU2Njc1NiwtMSwyLDE0MzE2NTYwMjEsMTQzMTY1NTc2NSwzMiwzNjI0LDM2MjUsMzAwMSwzMDAyLDMwMDMsMzAwNCwzMDA1LDMwMDYsMzAwNywzMDA4LDMwMDksMzAxMCwzMDExLDMwMTIsMzAxMywzMDE0LDMwMTUsMzAxNiwzMDE3LDMwMTgsMzAxOSwzMDIwLDMwMjEsMzAyMiwzMDIzLDMwMjQsMzAyNSwzMDI2LDMwMjcsMzAyOCwzMDI5LDMwMzAsMSwtMSwtMjEyMjIxOTEzNSwtMjEyMjIxOTEzNSwxMjldLCJwZXJtaXNzaW9uc0NvbXByZXNzZWQiOnRydWUsInRlbmFudCI6InBlcmZfZm94IiwiaXNzIjoiT3BlcmF0aXZlIiwianRpIjoiZDY4ZGFkOTgtOGY5ZS00NWUzLTkzNzItYmM2Y2JhMDY5MDAzIiwiaWF0IjoxNjIyNDQwMDk2LCJleHAiOjE2MjI0NDcyOTZ9.xo2Fc2usTY231IsCt5c5p43JNjLnJwwcjZsRmzM7yOmgTmeQVhvtOypoBk0cggN0Zo-rshlBZmRqazoVyxHk2Q
+				tenantId=perf_fox
+				userId=supportops@perf_fox.com
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "TestAdv_3724866",
+    "status": "ACTIVE",
+    "type": "Advertiser",
+    "accountId": "ad3724866",
+    "phone": "string",
+    "attributes": null,
+    "billingAddress": {
+        "country": "USA",
+        "city": "New York",
+        "street": "great west",
+        "postalCode": "560040",
+        "state": "New York"
+    },
+    "fax": "string",
+    "accountExecutive": "supportops@perf_fox.com",
+    "externalSourceSystemId": "jpUBnG-uT4mlpmj4MmlqQA",
+    "externalSourceSystemName": "Pitch CRM",
+    "description": "string"
+}
+HTTP/1.1 200 
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Content-Type: application/json;charset=UTF-8
+Date: Mon, 31 May 2021 05:48:20 GMT
+Expires: 0
+Pragma: no-cache
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Rate-Limit-Limit: 100000
+X-Rate-Limit-Remaining: 99999
+X-Rate-Limit-Reset: -2000
+X-XSS-Protection: 1; mode=block
+Content-Length: 58
+Connection: keep-alive
+
+{
+    "aosAccountId": "60b478a46de34422f797f432",
+    "message": null
+}

@@ -1,0 +1,69 @@
+Request method:	PUT
+Request URI:	https://aos-perf-gw.operativeone.com/crm/v1/c2c90904-8b2a-4ee5-b2c8-551bc523160d/opportunities
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzdXBwb3J0b3BzQHBlcmZfZm94LmNvbSIsImRuIjoib3U9cGVyZl9mb3gsZGM9b3BlcmF0aXZlb25lIiwicGVybWlzc2lvbnMiOls2MTcsMjAxMzkyMzg1LDE2Nzg0Mzg0LDI2ODUwMTAwOCwxMDQ4ODMyLDE2NzgxMzEzLDI2ODUwMTAwOCwxMDQ4ODMyLDE2NzgxMzEzLDI2ODUwMTAwOCwxMDQ4ODMyLDE2NzgxMzEzLDI2ODUwMTAwOCwxMDQ4ODMyLC0xLC0xLC0xLDMzNjIwMjI1LDE0MzE2NTU3NjUsMTcwNDMwMTkwOSwtMSwtMSwtMSwxNjg0MzAwOSwtMSwtMSwtMSwtMSwxNjg0MzUyMSwtMSwtMSwxMjI3MTMzNTEzLC0xODQwNzAwMjA2LDYxMzU2Njc1NiwtMSwyLDE0MzE2NTYwMjEsMTQzMTY1NTc2NSwzMiwzNjI0LDM2MjUsMzAwMSwzMDAyLDMwMDMsMzAwNCwzMDA1LDMwMDYsMzAwNywzMDA4LDMwMDksMzAxMCwzMDExLDMwMTIsMzAxMywzMDE0LDMwMTUsMzAxNiwzMDE3LDMwMTgsMzAxOSwzMDIwLDMwMjEsMzAyMiwzMDIzLDMwMjQsMzAyNSwzMDI2LDMwMjcsMzAyOCwzMDI5LDMwMzAsMSwtMSwtMjEyMjIxOTEzNSwtMjEyMjIxOTEzNSwxMjldLCJwZXJtaXNzaW9uc0NvbXByZXNzZWQiOnRydWUsInRlbmFudCI6InBlcmZfZm94IiwiaXNzIjoiT3BlcmF0aXZlIiwianRpIjoiZDY4ZGFkOTgtOGY5ZS00NWUzLTkzNzItYmM2Y2JhMDY5MDAzIiwiaWF0IjoxNjIyNDQwMDk2LCJleHAiOjE2MjI0NDcyOTZ9.xo2Fc2usTY231IsCt5c5p43JNjLnJwwcjZsRmzM7yOmgTmeQVhvtOypoBk0cggN0Zo-rshlBZmRqazoVyxHk2Q
+				tenantId=perf_fox
+				userId=supportops@perf_fox.com
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accountExecutive": "supportops@perf_fox.com",
+    "advertiserId": "5f9b0bcb67b8a10be2779971",
+    "amount": 20,
+    "attributes": {
+        "planClassId": "O0uvNI1TSsmgzSN1P-vcfQ",
+        "calendarId": "7JHOTm8DQUaUA4FBmZwuuA",
+        "flightEndDate": "2022-12-25",
+        "flightStartDate": "2021-05-31",
+        "startPeriodId": "qEQEH7aaQtyiiZFeO5OFtg",
+        "endPeriodId": "Z36NwVO8SKauJpi_AEwULQ",
+        "agencyId": "5f9b0c9a67b8a10be277bf69",
+        "platform": "LINEAR",
+        "marketPlaceId": "OXpHaUggTdODcnCL6ETFQw",
+        "channels": "R5wgimduTTGGoLyAl-RKFA",
+        "dealYearId": "037l12wmTxej6kgKeoGUzQ",
+        "guaranteed": false,
+        "equivalised": true,
+        "primaryDemoId": "85"
+    },
+    "lineItems": [
+        {
+            "attributes": {
+                "channelId": "R5wgimduTTGGoLyAl-RKFA",
+                "startDate": "2021-05-31",
+                "endDate": "2022-12-25"
+            },
+            "lineItemId": "1"
+        }
+    ],
+    "name": "Plan_CRM_Update_1966951",
+    "opportunityId": "Test1966951",
+    "externalSourceSystemId": "jpUBnG-uT4mlpmj4MmlqQA",
+    "externalSourceSystemName": "Pitch CRM",
+    "planId": "45053"
+}
+HTTP/1.1 200 
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Content-Type: application/json;charset=UTF-8
+Date: Mon, 31 May 2021 05:48:48 GMT
+Expires: 0
+Pragma: no-cache
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Rate-Limit-Limit: 100000
+X-Rate-Limit-Remaining: 99898
+X-Rate-Limit-Reset: 273827000
+X-XSS-Protection: 1; mode=block
+Content-Length: 20
+Connection: keep-alive
+
+{
+    "status": "SUCCESS"
+}
